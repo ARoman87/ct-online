@@ -3,10 +3,10 @@
 
 export default function Hero() {
     return (
-        <div className="pt-14 2xl:h-screen 2xl:flex 2xl:flex-col">
+        <div className="pt-14 2xl:flex 2xl:flex-col">
             <img className="background-img" src="https://static.compliancetrainingonline.com/images/hero-home.jpg" alt="background image"  />
 
-            <div className="bg-gray-100/75 m-4 rounded-lg 2xl:h-3/5 2xl:w-2/4 2xl:ml-4 2xl:ml-0 2xl:mb-10 xl:px-10 xl:mx-60 md:mx-20 lg:mx-60">
+            <div className="bg-gray-100/75 m-4 rounded-lg 2xl:h-3/5 2xl:w-2/4 2xl:ml-10 2xl:px-10 2xl:mb-10 xl:px-10 xl:mx-60 md:mx-20 lg:mx-60">
                 
                 <p className="font-semibold text-blue-800 text-4xl mx-5 py-5 text-center 2xl:text-7xl xl:text-7xl">Compliance Training Online®</p>
                 <p className="text-blue-700 font-semibold text-2xl mx-5 text-center 2xl:px-10 2xl:mb-6">Helping keep your employees safe and your company compliant.</p>
@@ -20,7 +20,7 @@ export default function Hero() {
                 <p className="font-bold text-4xl text-center text-blue-900 2xl:text-6xl">MOST TRUSTED</p>
             </div>
 
-            <div className="bg-ctred flex justify-around px-10 py-2 2xl:w-3/5 2xl:h-40 2xl:rounded 2xl:items-center 2xl:ml-20 md:h-40">
+            <div className="bg-ctred flex justify-around px-10 py-2 2xl:w-3/5 2xl:h-40 2xl:rounded 2xl:items-center 2xl:ml-20 md:h-40 2xl:mb-4">
                 <a href="https://www.bbb.org/us/tx/dripping-springs/profile/training-program/compliancetrainingonlinecom-0825-90078824#sealclick" target="_blank" rel="noreferrer"><img className="w-28 2xl:w-full 2xl:mr-10 md:w-full" src="https://static.compliancetrainingonline.com/images/bbb-rating-white.svg" alt="" /></a>
                 <a href="https://www.trustpilot.com/review/www.compliancetrainingonline.com" target="_blank" rel="noreferrer"><img className="w-24 2xl:w-9/12 2xl:ml-20 2xl:mb-3 md:w-8/12 md:ml-24" src="https://static.compliancetrainingonline.com/images/trustpilot-4.5star.svg"  alt="Trust Pilot" /></a>
                 
